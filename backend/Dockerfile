@@ -5,7 +5,7 @@ FROM node:18-slim
 WORKDIR /app
 
 # Copy dependency files first (optimizes Docker layer caching)
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
 # Install dependencies
 RUN npm install --production

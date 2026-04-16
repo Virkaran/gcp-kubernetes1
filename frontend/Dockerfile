@@ -4,7 +4,7 @@ FROM node:18-slim as build
 WORKDIR /app
 
 # Copy dependency files
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
 # Install dependencies
 RUN npm install
