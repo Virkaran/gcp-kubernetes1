@@ -39,5 +39,5 @@ jobs:
 
     - name: 'Deploy to K8s'
       run: |
-        sed -i "s/YOUR_PROJECT_ID/${{ secrets.GCP_PROJECT_ID }}/g" k8s/deployment.yaml
+        sed -i "s/southern-flash-485008-m6/${{ secrets.GCP_PROJECT_ID }}/g" k8s/deployment.yaml
         kubectl apply -f k8s/deployment.yaml
