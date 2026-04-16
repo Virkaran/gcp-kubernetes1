@@ -18,7 +18,6 @@ backend/dist/
 crash.log
 *.tfvars
 
-*.json
 
 
 .DS_Store
