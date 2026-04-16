@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: us-central1-docker.pkg.dev/YOUR_PROJECT_ID/my-app-repo/frontend:latest
+        image: us-central1-docker.pkg.dev/southern-flash-485008-m6/my-app-repo/frontend:latest
         ports:
         - containerPort: 80
       - name: backend
-        image: us-central1-docker.pkg.dev/YOUR_PROJECT_ID/my-app-repo/backend:latest
+        image: us-central1-docker.pkg.dev/southern-flash-485008-m6/my-app-repo/backend:latest
         ports:
         - containerPort: 5000
 ---
